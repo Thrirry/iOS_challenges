@@ -3,7 +3,7 @@
 import Cocoa
 
 
-// Challegen 1
+// Challenge 1
 let array1 = [Int]()
 //let array2 = []             //Invalid: Empty collection
 let array3: [String] = []
@@ -40,8 +40,7 @@ removing(4, from: [1,4,4,4,7,8,10])
 
 
 
-// Challegen 4
-
+// Challenge 4
 func reversed(_ array: [Int]) -> [Int] {
     var invert: [Int] = []
     
@@ -58,7 +57,7 @@ print(reversed([2,4,5,7,3]))
 
 
 
-// Challegen 5
+// Challenge 5
 func randomFromZero(to number: Int) -> Int {
     return Int(arc4random_uniform(UInt32(number)))
 }
@@ -77,7 +76,7 @@ randomized([2,3,4,5,6,7])
 
 
 
-// Challegen 6
+// Challenge 6
 func minMax(of array: [Int]) -> (min: Int, max:Int)? {
     
     var min: Int?
