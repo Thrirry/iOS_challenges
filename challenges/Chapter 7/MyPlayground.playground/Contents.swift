@@ -78,7 +78,7 @@ print(shapePath)
 
 // Challenge A: Divide and conquer
 var name: String? = "Ray"
-//var age: Int = nill       //False: Nil can't initialize with "String" type.
+//var age: Int = nill       //False: Nil can only be used with optinal type
 let distance: Float = 27.7
 var middleName: String? = nil
 
@@ -104,20 +104,20 @@ if let result = divideIfWhole(10, by: 3) {
 
 
 // Challenge C: Refactor and reduce
-let resultC = divideIfWhole(10, by: 2) ?? 0
+let resultC = divideIfWhole(10, by: 3) ?? 0
 print("It divides \(resultC) time")
 
 
 
 // Challenge D: Nested optional
-let number: Int??? = 20
+let number: Int??? = nil
 
 // question 1
-print(number!!!)
+//print(number!!!)
 
 // question 2
 if let number = number {
-    print(number)
+    print(number!!)
 }
 
 // question 3

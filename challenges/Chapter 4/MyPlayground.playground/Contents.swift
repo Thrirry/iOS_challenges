@@ -31,7 +31,6 @@ var nextPosition = (row: curPosition.row, column: curPosition.column)
 
 nextPosition.column += 1
 if nextPosition.column > 7 {
-    
     nextPosition.column = 0
     nextPosition.row += 1
     
@@ -44,8 +43,8 @@ print("The next position is row \(nextPosition.row) and column \(nextPosition.co
 
 
 // challegen 5
-let month = "jan"
-let year: Int = 2018
+let month = "fed"
+let year: Int = 2019
 var daysInthemonth = 0
 
 if month == "jan" || month == "mar" || month == "may" || month == "jul" || month == "aug" || month == "october" || month == "dec" {
@@ -64,7 +63,7 @@ print("\(month) in \(year) has \(daysInthemonth) days")
 
 
 // challegen 6
-let number = 10.0
+let number = 16.0
 let logarithm = log2(number)
 
 if logarithm == floor(logarithm){ //floor: take a Double and returns another Double

@@ -63,14 +63,14 @@ func isPrime(_ number: Int) -> Bool {
     }
     return true
 }
-isPrime(13)
+isPrime(7)
 
 
 
 
 // challenges C: Recursive
 func fibonacci(_ number: Int) -> Int {
-    if number < 0 {
+    if number <= 0 {
         return 0
     }else if number == 2 || number == 1 {
         return 1
